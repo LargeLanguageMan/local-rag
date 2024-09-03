@@ -34,6 +34,21 @@ git clone https://github.com/LargeLanguageMan/llm-project-monks
 cd llm-project-monks
 pip install -r requirements.txt
 ````
+### CLI tools
+Step 1: create local data base
+```
+python rag.py --create
+```
+Step 2: update database with files in your data folder
+```
+python rag.py --update
+```
+step 3: reset data base
+```
+python rag.py --reset
+```
+
+use --help for all options
 
 ## Usage
 ### Running a Query
@@ -50,7 +65,7 @@ To run a query, use the following command:
 bash
 
 ````
-python main.py "Your query text here"
+python rag.py "Your query text here"
 ````
 
 This will process the query and output a response along with the sources used.
