@@ -86,12 +86,16 @@ python rag.py "Your query text here"
 This will process the query and output a response along with the sources used.
 Project Structure
 
-    text_embed.py: Handles text embedding.
-    pdf_loader.py: Contains functions to load and process PDF documents.
-    chunk_generator.py: Splits documents into smaller text chunks.
-    store_embed.py: Adds the embedded chunks to the Chroma database.
-    main.py: The main script to run the RAG process, including query handling and response generation.
+    text_embed.py: Handles text embedding using local model `nomic-embed-text`
 
+    pdf_loader.py: Contains functions to load and process PDF documents.
+
+    chunk_generator.py: Splits documents into smaller text chunks.
+
+    rag.py: The main script to run the RAG process, including query handling and response generation.
+
+## Example usage
+![alt-text](https://github.com/LargeLanguageMan/llm-project-monks/blob/master/pics/example.png)
 Contributing
 
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.
