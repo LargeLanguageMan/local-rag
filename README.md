@@ -23,6 +23,14 @@ Steps of RAG
 
 ![alt-text](https://github.com/LargeLanguageMan/llm-project-monks/blob/master/pics/rag2.png)
 
+## Requirements
+
+You need to have ollama installed with the models specified in this code 
+`nomic-embed-text` and `llama3.1`
+
+You can change these models just make sure to change the values in `program/text_embed` and `rag.py`
+
+
 ## Installation
 
 To set up the project, first, clone the repository and install the required Python packages by running:
@@ -33,7 +41,14 @@ bash
 git clone https://github.com/LargeLanguageMan/llm-project-monks
 cd llm-project-monks
 pip install -r requirements.txt
+
 ````
+Use a virtual environment to install your the required packages
+
+```
+python3 -m venv .venv
+```
+
 ### CLI tools
 Step 1: create local data base
 ```
