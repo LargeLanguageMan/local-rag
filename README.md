@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # local-rag
-=======
+
 # Retrieval-Augmented Generation (RAG) System
 ## Overview
 
@@ -66,4 +66,3 @@ Contributing
 
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.
 
->>>>>>> 037d918 (initial commit)
