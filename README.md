@@ -14,14 +14,14 @@ Steps of RAG
     Load Data: Import and load your data using Document Loaders.
     Split Text: Break down large documents into smaller, manageable chunks using text splitters. This makes the data easier to search and process.
     Store Data: Store and index the text chunks using a VectorStore and an Embeddings model, enabling efficient retrieval later.
-![alt-text](https://github.com/LargeLanguageMan/llm-project-monks/blob/master/pics/rag1.png)
+![alt-text](https://github.com/LargeLanguageMan/local-rag/blob/main/pics/rag1.png)
 2. Retrieval and Generation
 
     Retrieve Data: Retrieve relevant data chunks from storage using a Retriever based on a user’s query.
     Generate Answer: Use a ChatModel or Large Language Model (LLM) to generate a response that incorporates both the user’s query and the retrieved data.
 
 
-![alt-text](https://github.com/LargeLanguageMan/llm-project-monks/blob/master/pics/rag2.png)
+![alt-text](https://github.com/LargeLanguageMan/local-rag/blob/main/pics/rag2.png)
 
 ## Requirements
 
@@ -95,7 +95,7 @@ Project Structure
     rag.py: The main script to run the RAG process, including query handling and response generation.
 
 ## Example usage
-![alt-text](https://github.com/LargeLanguageMan/llm-project-monks/blob/master/pics/example.png)
+![alt-text](https://github.com/LargeLanguageMan/local-rag/blob/main/pics/example.png)
 Contributing
 
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.
