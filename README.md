@@ -50,7 +50,7 @@ To run a query, use the following command:
 bash
 
 ````
-python main.py "Your query text here"
+python rag.py "Your query text here"
 ````
 
 This will process the query and output a response along with the sources used.
